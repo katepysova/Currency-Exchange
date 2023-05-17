@@ -1,12 +1,12 @@
 # Exchange Rate Calculator
 
-Exchange Rate Calculator. [Demo]().
+Exchange Rate Calculator. [Demo](https://katepysova.github.io/Currency-Exchange/).
 
 ## Installation
 
 1. Clone this repo or downloand zip:
 
-   ``
+   `git@github.com:katepysova/Currency-Exchange.git`
 
 2. Change your current directory to this project directory.
 
