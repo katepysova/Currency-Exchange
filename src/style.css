@@ -41,7 +41,6 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--color-white);
-  padding: 42px;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
 }
@@ -145,6 +144,26 @@ input:focus {
 @media only screen and (max-width: 600px) {
   .container {
     padding: 32px 0;
+  }
+
+  .swap-rate,
+  .currency {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .swap-rate {
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    padding: 24px;
+  }
+
+  .main {
+    padding: 32px 18px;
   }
 
   .swap-rate,
